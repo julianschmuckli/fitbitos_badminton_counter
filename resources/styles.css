@@ -1,0 +1,16 @@
+.background {
+  viewport-fill: #2550A7;
+}
+
+.btns{
+  fill:#122650;
+}
+
+#counter {
+  fill: #FFFFFF;
+  font-size: 80;
+  font-family: System-Regular;
+  font-weight: bold;
+  text-anchor: middle;
+  text-length: 99;
+}

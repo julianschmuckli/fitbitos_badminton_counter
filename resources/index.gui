@@ -1,0 +1,30 @@
+<svg class="background">
+  <!-- TOP LEFT -->
+  <use id="btn-tl" href="#combo-button-upper-left" class="btns">
+    <set href="combo-button-icon" attributeName="href" to="minus.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="minus.png"/>
+    <!--<set href="combo-button-stroke" attributeName="display" to="inline"/>-->
+  </use>
+  <!-- TOP RIGHT -->
+  <use id="btn-tr" href="#combo-button-upper-right" class="btns">
+    <set href="combo-button-icon" attributeName="href" to="plus.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="plus.png"/>
+    <!--<set href="combo-button-stroke" attributeName="display" to="inline"/>-->
+  </use>
+  <!-- BOTTOM RIGHT -->
+  <use id="btn-br" href="#combo-button-lower-right" class="btns">
+    <set href="combo-button-icon" attributeName="href" to="plus.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="plus.png"/>
+    <!--<set href="combo-button-stroke" attributeName="display" to="inline"/>-->
+  </use>
+  <!-- BOTTOM LEFT -->
+  <use id="btn-bl" href="#combo-button-lower-left" class="btns">
+    <set href="combo-button-icon" attributeName="href" to="minus.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="minus.png"/>
+    <!--<set href="combo-button-stroke" attributeName="display" to="inline"/>-->
+  </use>
+  <text id="counter" x="50%" y="50%+15">0 - 0</text>
+  <use id="auto_screen_off_settings" href="#square-button" y="$-50" x="50%-75" class="btns" width="150">
+    <set href="#text" attributeName="text-buffer" to="Screen" />
+  </use>
+</svg>

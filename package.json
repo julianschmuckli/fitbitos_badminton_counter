@@ -1,0 +1,17 @@
+{
+  "fitbit": {
+    "appUUID": "76fcd8cd-00dc-4ea6-b09c-8d7a5280611e",
+    "appType": "app",
+    "appDisplayName": "Badminton Counter",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#3f51b5",
+    "requestedPermissions": [
+      "run_background"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Badminton Counter"
+      }
+    }
+  }
+}
