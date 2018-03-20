@@ -70,11 +70,15 @@ function up2(){
 }
 
 function down1(){
-  player1--;
+  if(player1 > 0) {
+    player1--;
+  }
   updateCounterText();
 }
 function down2(){
-  player2--;
+  if(player2 > 0) {
+    player2--;
+  }
   updateCounterText();
 }
 
