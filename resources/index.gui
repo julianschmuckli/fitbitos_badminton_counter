@@ -1,4 +1,6 @@
-<svg class="background">
+<svg class="background" id="background_view">
+  <rect id="background_winner" />
+  <rect id="background_loser" />
   <!-- TOP LEFT -->
   <use id="btn-tl" href="#combo-button-upper-left" class="btns">
     <set href="combo-button-icon" attributeName="href" to="minus.png"/>
